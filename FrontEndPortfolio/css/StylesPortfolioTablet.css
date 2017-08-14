@@ -17,7 +17,6 @@ body {
 
 header {
 	width: 100%;
-	padding-top: 0em;
 	background-color: white;
 	border-bottom: 2px;
 	border-bottom-color: black;
@@ -36,16 +35,12 @@ main {
 	border-bottom-style: inset;
 }
 
-main img {
+.mainimage {
 	float: left;
 	height: 250px;
 	width: 250px;
 	border-radius: 5px;
 	padding-right: 3px;
-}
-
-main a {
-	color: blue;
 }
 
 footer {
@@ -112,12 +107,8 @@ h3 {
 	float: none;
 }
 
-.project img {
+.projectimage {
 	border-radius: 5px;
 	height: 125px;
 	width: 125px;
-}
-
-.project:target {
-	opacity: 0.5;
 }
