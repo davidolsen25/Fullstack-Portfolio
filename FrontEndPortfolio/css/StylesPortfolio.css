@@ -1,0 +1,121 @@
+body {
+	background-color: white;
+	display: flex;
+	font-family: roboto, arial, helvetica, sans-serif;
+	font-size: 18px;
+	background-color: white;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+header {
+	width: 100%;
+	padding-top: 0em;
+	background-color: white;
+	border-bottom: 2px;
+	border-bottom-color: black;
+	border-bottom-style: inset;
+}
+
+main {
+	padding: 3px;
+	width: 100%;
+	height: 58%;
+	font-size: 17px;
+	color: white;
+	background-color: gray;
+	border-bottom: 2px;
+	border-bottom-color: black;
+	border-bottom-style: inset;
+}
+
+main img {
+	float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	padding-right: 3px;
+}
+
+main a {
+	color: blue;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	padding-bottom: 45px;
+	background-color: lightgray;
+}
+
+#name {
+	float: right;
+	font-size: 1.5em;
+	padding-top: 1em;
+	padding-right: 5px;
+	order: 1;
+}
+
+#dev {
+	clear: right;
+	float: right;
+	font-size: 0.75em;
+	padding-right: 5px;
+	padding-bottom: 0.2em;
+	order: 2;
+}
+
+#logo {
+	float: left;
+	height: 72px;
+	width: 90px;
+}
+
+h3 {
+	font-size: 0.7em;
+	padding-left: 5px;
+	font-family: arial, roboto, helvetica, sans-serif;
+}
+
+#works {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.slider {
+	display: block;
+	min-width: 33%;
+	margin: auto;
+	position: relative;
+	float: none;
+}
+
+.project {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	width: 85px;
+	height: 85px;
+	float: none;
+}
+
+.project img {
+	border-radius: 5px;
+	height: 85px;
+	width: 85px;
+}
+
+.project:target {
+	opacity: 0.5;
+}
